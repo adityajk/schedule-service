@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://signage-database.caciezsccgc6.us-east-2.rds.amazonaws.com:5432/signage-database
+    username: postgres
+    password: postgres1234
+    driver-class-name: "org.postgresql.Driver"
+  jpa:
+    properties.hibernate.dialect:  org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
